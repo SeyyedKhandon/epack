@@ -1,16 +1,8 @@
-# Visual Studio Code Git Extension Pack (GPack)
+# DX Enhancer Pack (EPack)
 
-### GPack
+### EPack
 
-Git Essentials Extension Pack for Visual Studio Code (GPack)
-
-> These are some of my favorite git extensions which makes `VSCode` git management like `WebStorm`.
-
-**Notes**:
-
-- You can use `Local History` instead of `Checkpoints`, it has a closer experience to `Webstorm` `Local History`, but it can be annoying because will create anywhere a `.history` folder.
-  - [Local History](https://marketplace.visualstudio.com/items?itemName=xyz.local-history) - Save files into local history like `Webstorm` localhistory, to have a checkpoints on each save change which you are working.
-  -
+Developer Experience Enhancer/Management Essentials Extension Pack for Visual Studio Code (EPack)
 
 ## Extensions Included
 
