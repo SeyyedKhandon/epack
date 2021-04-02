@@ -1,0 +1,44 @@
+{
+  "name": "epack",
+  "version": "0.1.0",
+  "publisher": "SeyyedKhandon",
+  "author": "SeyyedMahdi Hassanpour",
+  "displayName": "DX Enhancer Pack (EPack)",
+  "description": "Developer Experience Enhancer/Management Essentials Extension Pack for Visual Studio Code (EPack)",
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#47B784",
+    "theme": "dark"
+  },
+  "icon": "logo.jpg",
+  "repository": {
+    "url": "https://github.com/SeyyedKhandon/epack.git"
+  },
+  "homepage": "https://github.com/SeyyedKhandon/epack.git",
+  "bugs": {
+    "url": "https://github.com/SeyyedKhandon/epack.git/issues"
+  },
+  "keywords": [
+    "programming",
+    "web",
+    "developer experience",
+    "Developer Experience Enhancer Extension Pack",
+    "extension pack",
+    "Project Manager",
+    "Better Comments",
+    "Bracket Pair Colorizer",
+    "Markdown Preview Enhanced"
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "engines": {
+    "vscode": "^1.54.3"
+  },
+  "extensionPack": [
+    "alefragnani.project-manager",
+    "aaron-bond.better-comments",
+    "CoenraadS.bracket-pair-colorizer-2",
+    "shd101wyy.markdown-preview-enhanced"
+  ]
+}
