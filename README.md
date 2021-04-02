@@ -39,8 +39,8 @@ Developer Experience Enhancer/Management Essentials Extension Pack for Visual St
 
 ## Relevant Links
 
-- [Github](https://github.com/SeyyedKhandon/gpack)
-- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.gpack)
+- [Github](https://github.com/SeyyedKhandon/epack)
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.epack)
 
 ## Generate Package
 
