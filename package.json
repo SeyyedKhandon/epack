@@ -1,6 +1,6 @@
 {
   "name": "epack",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "DX Enhancer Pack (EPack)",
@@ -27,7 +27,9 @@
     "Project Manager",
     "Better Comments",
     "Bracket Pair Colorizer",
-    "Markdown Preview Enhanced"
+    "Markdown Preview Enhanced",
+    "Prettier - Code formatter",
+    "Formatting Toggle"
   ],
   "categories": [
     "Extension Packs"
@@ -39,6 +41,8 @@
     "alefragnani.project-manager",
     "aaron-bond.better-comments",
     "CoenraadS.bracket-pair-colorizer-2",
-    "shd101wyy.markdown-preview-enhanced"
+    "shd101wyy.markdown-preview-enhanced",
+    "esbenp.prettier-vscode",
+    "tombonnike.vscode-status-bar-format-toggle"
   ]
 }

@@ -4,6 +4,25 @@
 
 Developer Experience Enhancer/Management Essentials Extension Pack for Visual Studio Code (EPack)
 
+### Pre-defined settings which you maybe want to use:
+
+1. press `ctrl+shift+p`
+2. type `settings`
+3. click on `Preferences: Open settings (JSON)` to open your settings.json file
+4. add these lines to the `Settings`:
+
+```json
+{
+  "files.autoSave": "afterDelay",
+  "window.zoomLevel": 1,
+  "projectManager.openInNewWindowWhenClickingInStatusBar": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true
+}
+```
+
 ## Extensions Included
 
 - 1- [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) - Easily switch between projects.
@@ -13,6 +32,10 @@ Developer Experience Enhancer/Management Essentials Extension Pack for Visual St
 - 3- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) - A customizable extension for colorizing matching brackets.
 
 - 4- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) - Markdown Preview Enhanced ported to vscode.
+
+- 5- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) - Markdown Preview Enhanced ported to vscode.
+
+- 6- [Formatting Toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle) - A VS Code extension that allows you to toggle the formatter (Prettier, Beautify, …) ON and OFF with a simple click.
 
 ## Relevant Links
 
