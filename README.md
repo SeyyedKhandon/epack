@@ -35,18 +35,18 @@ Developer Experience Enhancer/Management Essentials Extension Pack for Visual St
 
 - 6- [Formatting Toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle) - A VS Code extension that allows you to toggle the formatter (Prettier, Beautify, …) ON and OFF with a simple click.
 
+## Recommended Extension pack
+
+<a href="https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.xpack">
+<img src="https://seyyedkhandon.gallerycdn.vsassets.io/extensions/seyyedkhandon/xpack/0.1.0/1617940435190/Microsoft.VisualStudio.Services.Icons.Default" width="300"/></a>
+
+[XPack](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.xpack) is An Opinionated collection of the `best` and `most` used extensions for Web Developers in VSCode which has Better `Developer Experience(DX)` and `load time` in Mind.
+
+
+
 ## Relevant Links
 
 - [Github](https://github.com/SeyyedKhandon/epack)
 - [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.epack)
-
-## Generate Package
-
-You can customize this pack via forking and changing it in the `package.json` and use these instructions to generate a new one:
-
-> If you don't have [node.js](https://nodejs.org/en/), first download and install the latest version. then you have to install `vsce` via `npm install -g vsce`.
-
-1. `vsce package`
-2. `vsce publish`
 
 **Enjoy!**
