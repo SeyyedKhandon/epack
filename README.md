@@ -17,9 +17,7 @@ Developer Experience Enhancer/Management Essentials Extension Pack for Visual St
   "window.zoomLevel": 1,
   "projectManager.openInNewWindowWhenClickingInStatusBar": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true
+  "editor.formatOnSave": true
 }
 ```
 
