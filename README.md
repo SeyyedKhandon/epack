@@ -4,12 +4,11 @@
 
 Developer Experience Enhancer/Management Essentials Extension Pack for Visual Studio Code (EPack)
 
-### Pre-defined settings which you maybe want to use:
+### 1-Click Setup:
 
-1. press `ctrl+shift+p`
-2. type `settings`
-3. click on `Preferences: Open settings (JSON)` to open your settings.json file
-4. add these lines to the `Settings`:
+1. Press `ctrl+shift+p`
+2. Type `epack` or `update config`
+3. Click on `Update DX Enhancer Pack (EPack) Config` to automatically add below configs to your `settings.json` file
 
 ```json
 {
@@ -41,8 +40,6 @@ Developer Experience Enhancer/Management Essentials Extension Pack for Visual St
 <img src="https://seyyedkhandon.gallerycdn.vsassets.io/extensions/seyyedkhandon/xpack/0.1.0/1617940435190/Microsoft.VisualStudio.Services.Icons.Default" width="300"/></a>
 
 [XPack](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.xpack) is An Opinionated collection of the `best` and `most` used extensions for Web Developers in VSCode which has Better `Developer Experience(DX)` and `load time` in Mind.
-
-
 
 ## Relevant Links
 
