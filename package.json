@@ -1,6 +1,6 @@
 {
   "name": "epack",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "DX Enhancer Pack (EPack)",
@@ -10,7 +10,7 @@
     "color": "#47B784",
     "theme": "dark"
   },
-  "icon": "epack.jpg",
+  "icon": "assets/epack.jpg",
   "repository": {
     "url": "https://github.com/SeyyedKhandon/epack.git"
   },
