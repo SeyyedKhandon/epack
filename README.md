@@ -1,4 +1,8 @@
-# DX Enhancer Pack (EPack)
+<a href="https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.epack">
+  <img style="margin:auto;" src="./assets/epack.jpg" width="200px" />
+</a>
+
+# DX Enhancer Extension Pack (EPack)
 
 ### EPack
 
@@ -38,7 +42,8 @@ Developer Experience Enhancer/Management Essentials Extension Pack for Visual St
 ## Recommended Extension pack
 
 <a href="https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.zpack">
-<img src="https://seyyedkhandon.gallerycdn.vsassets.io/extensions/seyyedkhandon/zpack/1.0.6/1620297423398/Microsoft.VisualStudio.Services.Icons.Default" width="300"/></a>
+  <img style="margin:auto;" src="./assets/zpack.jpg" alt="zpack" width="200px" />
+</a>
 
 [ZPack](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.zpack) is An Opinionated collection of the `best` and `most` used extensions for Web Developers in VSCode which has Better `Developer Experience(DX)` and `load time` in Mind.
 
