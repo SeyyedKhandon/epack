@@ -20,7 +20,14 @@ Developer Experience Enhancer/Management Essentials Extension Pack for Visual St
   "explorer.compactFolders": false,
   "projectManager.openInNewWindowWhenClickingInStatusBar": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "errorLens.statusBarColorsEnabled": true,
+  "errorLens.statusBarMessageEnabled": true,
+  "errorLens.statusBarMessageType": "closestProblem",
+  "errorLens.followCursor": "closestProblem",
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.scrollbarHackEnabled": true,
+  "errorLens.fontStyleItalic": true
 }
 ```
 
@@ -37,6 +44,8 @@ Developer Experience Enhancer/Management Essentials Extension Pack for Visual St
 - 5- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) - Markdown Preview Enhanced ported to vscode.
 
 - 6- [Formatting Toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle) - A VS Code extension that allows you to toggle the formatter (Prettier, Beautify, …) ON and OFF with a simple click.
+
+- 7- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Improve highlighting of errors, warnings and other language diagnostics.
 
 ## Recommended Extension pack
 

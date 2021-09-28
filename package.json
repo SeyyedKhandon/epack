@@ -1,6 +1,6 @@
 {
   "name": "epack",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "DX Enhancer Pack (EPack)",
@@ -62,7 +62,8 @@
     "CoenraadS.bracket-pair-colorizer-2",
     "shd101wyy.markdown-preview-enhanced",
     "esbenp.prettier-vscode",
-    "tombonnike.vscode-status-bar-format-toggle"
+    "tombonnike.vscode-status-bar-format-toggle",
+    "usernamehw.errorlens"
   ],
   "devDependencies": {
     "@types/vscode": "^1.55.0",
