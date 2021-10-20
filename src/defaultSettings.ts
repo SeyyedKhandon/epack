@@ -13,4 +13,5 @@ export const defaultSettings = [
   { "errorLens.gutterIconsEnabled": true },
   { "errorLens.scrollbarHackEnabled": true },
   { "errorLens.fontStyleItalic": true },
+  { "editor.guides.bracketPairs": true },
 ] as GeneralObject[];
