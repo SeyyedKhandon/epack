@@ -18,17 +18,16 @@ Developer Experience Enhancer/Management Essentials Extension Pack for Visual St
 {
   "files.autoSave": "afterDelay",
   "explorer.compactFolders": false,
+  "editor.guides.bracketPairs": true,
+  "editor.mouseWheelZoom": true,
   "projectManager.openInNewWindowWhenClickingInStatusBar": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
   "errorLens.statusBarColorsEnabled": true,
   "errorLens.statusBarMessageEnabled": true,
   "errorLens.statusBarMessageType": "closestProblem",
   "errorLens.followCursor": "closestProblem",
   "errorLens.gutterIconsEnabled": true,
   "errorLens.scrollbarHackEnabled": true,
-  "errorLens.fontStyleItalic": true,
-  "editor.guides.bracketPairs": true
+  "errorLens.fontStyleItalic": true
 }
 ```
 
@@ -40,15 +39,14 @@ Developer Experience Enhancer/Management Essentials Extension Pack for Visual St
 
 - 3- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) - Markdown Preview Enhanced ported to vscode.
 
-- 4- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) - Markdown Preview Enhanced ported to vscode.
+- 4- [file-size](https://marketplace.visualstudio.com/items?itemName=zh9528.file-size) - Show the current text file size in the status bar.
 
-- 5- [Formatting Toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle) - A VS Code extension that allows you to toggle the formatter (Prettier, Beautify, …) ON and OFF with a simple click.
+- 5- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Improve highlighting of errors, warnings and other language diagnostics.
 
-- 6- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Improve highlighting of errors, warnings and other language diagnostics.
-
-**Note** `Bracket Pair Colorizer` is now supported by `vscode` itself(just should be enabled, which we will do this for you by this extension), so there is no need to add the extra extension.
+**Note* `Bracket Pair Colorizer` is now supported by `vscode` itself(just should be enabled, which we will do this for you by this extension), so there is no need to add the extra extension.
 
 ## Recommended Extension pack
+
 
 <a href="https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.zpack">
   <img style="margin:auto;" src="./assets/zpack.jpg" alt="zpack" width="200px" />

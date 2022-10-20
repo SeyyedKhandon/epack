@@ -1,17 +1,18 @@
-import { GeneralObject } from "./util";
+export interface GeneralObject {
+  [index: string]: string | number | boolean | GeneralObject;
+}
 
-export const defaultSettings = [
-  { "files.autoSave": "afterDelay" },
-  { "explorer.compactFolders": false },
-  { "projectManager.openInNewWindowWhenClickingInStatusBar": true },
-  { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  { "editor.formatOnSave": true },
-  { "errorLens.statusBarColorsEnabled": true },
-  { "errorLens.statusBarMessageEnabled": true },
-  { "errorLens.statusBarMessageType": "closestProblem" },
-  { "errorLens.followCursor": "closestProblem" },
-  { "errorLens.gutterIconsEnabled": true },
-  { "errorLens.scrollbarHackEnabled": true },
-  { "errorLens.fontStyleItalic": true },
-  { "editor.guides.bracketPairs": true },
-] as GeneralObject[];
+export const defaultSettings = {
+  "files.autoSave": "afterDelay",
+  "explorer.compactFolders": false,
+  "editor.guides.bracketPairs": true,
+  "editor.mouseWheelZoom": true,
+  "projectManager.openInNewWindowWhenClickingInStatusBar": true,
+  "errorLens.statusBarColorsEnabled": true,
+  "errorLens.statusBarMessageEnabled": true,
+  "errorLens.statusBarMessageType": "closestProblem",
+  "errorLens.followCursor": "closestProblem",
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.scrollbarHackEnabled": true,
+  "errorLens.fontStyleItalic": true,
+};
