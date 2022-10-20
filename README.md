@@ -43,7 +43,7 @@ Developer Experience Enhancer/Management Essentials Extension Pack for Visual St
 
 - 5- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Improve highlighting of errors, warnings and other language diagnostics.
 
-**Note* `Bracket Pair Colorizer` is now supported by `vscode` itself(just should be enabled, which we will do this for you by this extension), so there is no need to add the extra extension.
+**Note** `Bracket Pair Colorizer` is now supported by `vscode` itself(just should be enabled, which we will do this for you by this extension), so there is no need to add the extra extension.
 
 ## Recommended Extension pack
 
