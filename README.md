@@ -4,15 +4,19 @@
 
 # DX Enhancer Extension Pack (EPack)
 
-### EPack
-
 Developer Experience Enhancer/Management Essentials Extension Pack for Visual Studio Code (EPack)
 
-### 1-Click Setup:
+### Available Commands
 
-1. Press `ctrl+shift+p`
-2. Type `epack` or `update config`
-3. Click on `Update DX Enhancer Pack (EPack) Config` to automatically add below configs to your `settings.json` file
+- `Activate Frontend Essentials Extension Pack (FPack) Config`
+- `Deactivate Frontend Essentials Extension Pack (FPack) Config`
+
+**Note:** to run commands, press `ctrl+shift+p` to open the command palette, and then type the command .e.g. `activate epack` then select it.
+
+<details>
+<summary>
+<i>Here are the configurations this plugin will set for you</i>
+</summary>
 
 ```json
 {
@@ -31,6 +35,8 @@ Developer Experience Enhancer/Management Essentials Extension Pack for Visual St
 }
 ```
 
+</details>
+
 ## Extensions Included
 
 - 1- [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) - Easily switch between projects.
@@ -46,7 +52,6 @@ Developer Experience Enhancer/Management Essentials Extension Pack for Visual St
 **Note** `Bracket Pair Colorizer` is now supported by `vscode` itself(just should be enabled, which we will do this for you by this extension), so there is no need to add the extra extension.
 
 ## Recommended Extension pack
-
 
 <a href="https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.zpack">
   <img style="margin:auto;" src="./assets/zpack.jpg" alt="zpack" width="200px" />

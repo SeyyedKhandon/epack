@@ -1,26 +1,27 @@
 import * as vscode from "vscode";
-import { defaultSettings, GeneralObject } from "./defaultSettings";
+import {
+  extensionActivation,
+  extensionDeactivation,
+  firstTimeActivation,
+} from "./util";
 
-const updateUserSettings = async (settings: GeneralObject) => {
-  Object.entries(settings).forEach(async ([key,value]) => {
-    await vscode.workspace
-      .getConfiguration()
-      .update(key, value, vscode.ConfigurationTarget.Global);
-  });
-};
 export async function activate(context: vscode.ExtensionContext) {
-  console.log('Congratulations, your extension "DX Enhancer" is now active!');
-  let disposable = vscode.commands.registerCommand(
-    "epack.updateConfig",
-    async () => {
-      console.log(JSON.stringify(defaultSettings, null, 1));
-      await updateUserSettings(defaultSettings);
-      await vscode.window.showInformationMessage(
-        "DX Enhancer Config has been updated."
-      );
-    }
+  console.log(
+    `Congratulations, your extension "${context.extension.packageJSON.displayName}" installed!`
   );
-  context.subscriptions.push(disposable);
+  firstTimeActivation(context);
+
+  const activateCommand = vscode.commands.registerCommand(
+    "epack.activate",
+    () => extensionActivation(context)
+  );
+  const deactivateCommand = vscode.commands.registerCommand(
+    "epack.deactivate",
+    () => extensionDeactivation(context)
+  );
+  context.subscriptions.push(activateCommand, deactivateCommand);
 }
 
-export function deactivate() {}
+export function deactivate(context: vscode.ExtensionContext) {
+  extensionDeactivation(context);
+}

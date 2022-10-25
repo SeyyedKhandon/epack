@@ -1,6 +1,6 @@
 {
   "name": "epack",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "DX Enhancer Pack (EPack)",
@@ -37,14 +37,18 @@
     "vscode": "^1.55.0"
   },
   "activationEvents": [
-    "onCommand:epack.updateConfig"
+    "onStartupFinished"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "epack.updateConfig",
-        "title": "Update DX Enhancer Pack (EPack) Config"
+        "command": "epack.activate",
+        "title": "Activate DX Enhancer Pack (EPack) Config"
+      },
+      {
+        "command": "epack.deactivate",
+        "title": "Deactivate DX Enhancer Pack (EPack) Config"
       }
     ]
   },
