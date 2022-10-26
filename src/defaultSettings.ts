@@ -10,9 +10,12 @@ export const defaultSettings = {
   "projectManager.openInNewWindowWhenClickingInStatusBar": true,
   "errorLens.statusBarColorsEnabled": true,
   "errorLens.statusBarMessageEnabled": true,
-  "errorLens.statusBarMessageType": "closestProblem",
+  "errorLens.statusBarMessageType": "closestSeverity",
   "errorLens.followCursor": "closestProblem",
-  "errorLens.gutterIconsEnabled": true,
   "errorLens.scrollbarHackEnabled": true,
   "errorLens.fontStyleItalic": true,
+  "errorLens.messageBackgroundMode": "message",
+  "workbench.colorCustomizations": {
+    "editorInfo.foreground": "#0080ff6a",
+  },
 };
