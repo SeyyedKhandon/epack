@@ -1,6 +1,6 @@
 {
   "name": "epack",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "DX Enhancer Pack (EPack)",
@@ -28,7 +28,8 @@
     "Native Bracket Pair Colorizer",
     "Markdown Preview Enhanced",
     "File size",
-    "Zoom using Mouse wheel"
+    "Zoom using Mouse wheel",
+    "Path Intellisense"
   ],
   "categories": [
     "Extension Packs"
@@ -65,7 +66,8 @@
     "aaron-bond.better-comments",
     "shd101wyy.markdown-preview-enhanced",
     "usernamehw.errorlens",
-    "zh9528.file-size"
+    "zh9528.file-size",
+    "christian-kohler.path-intellisense"
   ],
   "devDependencies": {
     "@types/vscode": "^1.55.0",

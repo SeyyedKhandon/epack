@@ -4,10 +4,14 @@ export interface GeneralObject {
 
 export const defaultSettings = {
   "files.autoSave": "afterDelay",
+  "window.zoomLevel": 1,
+  "editor.wordWrap": "on",
+  "workbench.editor.labelFormat": "short",
   "explorer.compactFolders": false,
   "editor.guides.bracketPairs": true,
   "editor.mouseWheelZoom": true,
   "projectManager.openInNewWindowWhenClickingInStatusBar": true,
+  "errorLens.gutterIconsEnabled": false,
   "errorLens.statusBarColorsEnabled": true,
   "errorLens.statusBarMessageEnabled": true,
   "errorLens.statusBarMessageType": "closestSeverity",

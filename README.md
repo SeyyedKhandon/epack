@@ -21,10 +21,14 @@ Developer Experience Enhancer/Management Essentials Extension Pack for Visual St
 ```json
 {
   "files.autoSave": "afterDelay",
+  "window.zoomLevel": 1,
+  "editor.wordWrap": "on",
+  "workbench.editor.labelFormat": "short",
   "explorer.compactFolders": false,
   "editor.guides.bracketPairs": true,
   "editor.mouseWheelZoom": true,
   "projectManager.openInNewWindowWhenClickingInStatusBar": true,
+  "errorLens.gutterIconsEnabled": false,
   "errorLens.statusBarColorsEnabled": true,
   "errorLens.statusBarMessageEnabled": true,
   "errorLens.statusBarMessageType": "closestSeverity",
@@ -51,6 +55,8 @@ Developer Experience Enhancer/Management Essentials Extension Pack for Visual St
 - 4- [file-size](https://marketplace.visualstudio.com/items?itemName=zh9528.file-size) - Show the current text file size in the status bar.
 
 - 5- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Improve highlighting of errors, warnings and other language diagnostics.
+
+- 5- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) - Visual Studio Code plugin that auto-completes filenames
 
 **Note** `Bracket Pair Colorizer` is now supported by `vscode` itself(just should be enabled, which we will do this for you by this extension), so there is no need to add the extra extension.
 
